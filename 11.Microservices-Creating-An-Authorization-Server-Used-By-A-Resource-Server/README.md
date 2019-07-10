@@ -17,13 +17,13 @@
 * Annotate main class with @EnableAuthorizationServer
 
 
-	@SpringBootApplication
-	@EnableAuthorizationServer
-	public class Application {
-	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
-	}
-	}
+		@SpringBootApplication
+		@EnableAuthorizationServer
+		public class Application {
+		public static void main(String[] args) {
+			SpringApplication.run(Application.class, args);
+		}
+		}
 
 
  * Add following code to application.peroperties
