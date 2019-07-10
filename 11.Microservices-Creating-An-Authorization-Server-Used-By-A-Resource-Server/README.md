@@ -29,14 +29,14 @@
  * Add following code to application.peroperties
 
 
-	server.port: 9000
-	spring.security.user.name: sagar
-	spring.security.user.password: password
-	spring.security.user.roles=: USER
-	security.oauth2.client.clientId: rosemont
-	security.oauth2.client.clientSecret: rosemont
-	security.oauth2.client.authorized-grant-types: authorization_code,refresh_token,password,client_credentials
-	security.oauth2.client.scope:person_read,person_report
+		server.port: 9000
+		spring.security.user.name: sagar
+		spring.security.user.password: password
+		spring.security.user.roles=: USER
+		security.oauth2.client.clientId: rosemont
+		security.oauth2.client.clientSecret: rosemont
+		security.oauth2.client.authorized-grant-types: authorization_code,refresh_token,password,client_credentials
+		security.oauth2.client.scope:person_read,person_report
 
 * Start the server
 * open postman and configure a **post**  request to **localhost:9000/oauth/token**  
