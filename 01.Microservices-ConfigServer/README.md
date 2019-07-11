@@ -11,13 +11,13 @@
 
 * Main class
 
-	@SpringBootApplication
-	@EnableConfigServer
-	public class Application {
-	public static void main(String[] args) {
-		SpringApplication.run(Application.class, args);
-	}
-	}
+		@SpringBootApplication
+		@EnableConfigServer
+		public class Application {
+		public static void main(String[] args) {
+			SpringApplication.run(Application.class, args);
+		}
+		}
 * Create a folder named **config** folder in **src/main/resources**
 
 * Create 3 property files in this folder 
@@ -38,8 +38,8 @@
 
 * Add following code in  application.properties file 
 
-	server.port=8888
-	spring.profiles.active=native
+		server.port=8888
+		spring.profiles.active=native
 
 * Start the app and access following urls
 	
