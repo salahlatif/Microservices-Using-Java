@@ -24,6 +24,7 @@
 
 	* Add following code in Main class
 	
+	
 		@SpringBootApplication
 		@EnableConfigServer
 		public class Application {
