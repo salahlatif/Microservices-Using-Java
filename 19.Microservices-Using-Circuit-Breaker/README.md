@@ -1,4 +1,4 @@
-* Create a copy of 18.Microservices-Sending-Health-Info
+* Create a copy of 17.Microservices-Discovering-Service-With-Eureka
 * Add following dependency
 
 		<dependency>
