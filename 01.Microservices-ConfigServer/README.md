@@ -27,14 +27,14 @@
 	 	
 * Type a key value pair in each of these files
 
-	#app1.properties
-	greeting=hello
+		#app1.properties
+		greeting=hello
 
-	#app2.properties
-	greeting=hey there
+		#app2.properties
+		greeting=hey there
 
-	#app3.properties
-	greeting=howdy
+		#app3.properties
+		greeting=howdy
 
 * Add following code in  application.properties file 
 
